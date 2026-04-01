@@ -12,14 +12,12 @@ public class Palindromo {
                 texto2 = texto2 + texto1.charAt(i);
             }
         }
-        int k = texto1.length();
-        System.out.println(k);
+
         for (int j=texto1.length(); j>=1; j=j-1){
             if (texto1.charAt(j) != ' '){
                 texto3 = texto3 + texto1.charAt(j);
                 System.out.println(texto3);
             }
-            k=k-1;
         }
 
         if (texto2.equals(texto3)){
